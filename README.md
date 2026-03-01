@@ -72,11 +72,8 @@ supply-chain-risk-intelligence/
 ├── README.md                       ← Project documentation
 │
 ├── models/
-│   ├── xgboost_model.pkl           ← Trained XGBoost model
-│   ├── random_forest_model.pkl     ← Trained Random Forest model
-│   ├── knn_model.pkl               ← Trained KNN model
-│   ├── logistic_regression_model.pkl ← Trained Logistic Regression
-│   └── label_encoder.pkl           ← Label encoder for class mapping
+│   ├── Model files are hosted on Google Drive (too large for GitHub)
+│   ├── Download here:https://drive.google.com/drive/u/0/folders/141bQgsJoSovQI5vVp0NYh8sm1Ksj7sKi 
 │
 └── notebooks/
     └── Supply_Chain_Intelligence.ipynb ← Google Colab notebook
@@ -106,11 +103,14 @@ Place the CSV file in the root directory:
 DataCoSupplyChainDataset.csv
 ```
 
-### 4. Train the Models
-Run the training pipeline to generate all `.pkl` model files:
-```bash
-python training_pipeline.py
-```
+### 4. Download Trained Models
+Model `.pkl` files exceed GitHub's 25MB limit and are hosted on Google Drive.
+
+👉 [Download All Model Files from Google Drive](https://drive.google.com/drive/u/0/folders/141bQgsJoSovQI5vVp0NYh8sm1Ksj7sKi)
+
+After downloading place all `.pkl` files in the root directory.
+
+**OR** skip this step and train from scratch:
 
 ### 5. Launch the Dashboard
 ```bash
